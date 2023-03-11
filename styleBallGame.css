@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.current-Score {
+    pointer-events: none;
+    margin: 0 -22.75% 0 0;
+}
+
+.current-Score-Number {
+    pointer-events: none;
+}
+
+.high-Score {
+    pointer-events: none;
+    margin: 0 -20.225% 0 0;
+}
+
+.high-Score-Number {
+    pointer-events: none;
+}
+
+
+span {
+    position: absolute;
+    color: yellow;
+    font-size: 150%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+    text-shadow: 0 2px 5px yellowgreen;
+}
+
+.game-Over-Screen {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(40, 202, 19, 0.329);
+    color: white;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 15px;
+}
